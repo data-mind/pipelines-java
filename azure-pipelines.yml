@@ -30,4 +30,5 @@ pool:
 
 jobs:
 - job: Test
-- bash: echo AAA
+  steps:
+  - bash: echo AAA
